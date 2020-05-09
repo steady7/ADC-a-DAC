@@ -21,6 +21,8 @@ Můžeme chybu „opravit“:
 Když mluvíme po telefonu, mikrofon převádí náš hlas na elektrický signál a pomocí ADC je tento signál digitalizován a je přenášen ve formě rádiových vln.
 ![priklad](priklad_ADC.png)
 Podobně, na straně přijímače, s použitím DAC jsou tato přijímaná digitální data převedena na analogový signál a prostřednictvím reproduktoru jsme schopni slyšet hlas jiné osoby.
+### Proces konvertování ANALOG na DIGITALNÍ
+![process](process_of_ADC.png)
 # DAC
 ![dac](DAC.png)
 ### Příklad využití DAC
