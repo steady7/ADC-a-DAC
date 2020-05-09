@@ -10,6 +10,7 @@ Libovolná hodnota signálu je platná, s časem se hodnota mění postupně (sp
 ### Digitální přenos
 Vyhradíme pouze několik hodnot signálu, které jsou povolené. 
 Výskyt jiných hodnot indikuje chybu při přenosu (porušení přenášeného signálu). 
+
 Můžeme chybu „opravit“:
     1)Zaokrouhlíme ji na nejbližší platnou hodnotu.
     2)Často tak získáme správnou (odvysílanou) hodnotu (ale ne vždy)! 
