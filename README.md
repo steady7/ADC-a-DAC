@@ -15,6 +15,17 @@ Můžeme chybu „opravit“:
     1)Zaokrouhlíme ji na nejbližší platnou hodnotu.
     2)Často tak získáme správnou (odvysílanou) hodnotu (ale ne vždy)! 
 ![priklady_digital](digital_priklady.png)
+### Kvantování
+V konstantních časových intervalech se odebírají vzorky, kterým se přiřazuje úměrná hodnota.
+![kvantovani](kvantovani.png)
+Jak zde vidíte, signál je kvantován v 16 různých úrovních a vzorkovanému signálu je přiřazena nejbližší hodnota z těchto 16 úrovní.
+#### Vypočítání rozlišovací schopnosti ( V kolika urovních se bude kvantovat)
+![zjisteni_poctu_urovni](zjisteni_poctu_urovni.png)
+#### Vypočítání minimální změny, kterou lze detekovat pomocí ADC
+![vypocitani](vypocitani_min.png)
+Takže tento 8bitový ADC bude nyní schopen detekovat změnu už dokonce při 39 mV.
+
+Stručně řečeno, zvýšením počtu bitů můžeme zvýšit rozlišovací schopnost.
 # ADC
 ![adc](https://i.imgur.com/2pGoFVo.png)
 ### Příklad využití
