@@ -1,5 +1,6 @@
 ﻿# 2 typy signálu
 analogový signál = hodnota se přenáší jako úroveň napětí či proudu
+
 digitální signál = hodnota je zakódována jako binární číslo
 ### Analogový přenos
 Libovolná hodnota signálu je platná, s časem se hodnota mění postupně (spojitě). 
