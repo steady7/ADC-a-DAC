@@ -45,11 +45,17 @@ A modrá čára ukazuje ideální přenosovou funkci ADC.
 To znamená, že pokud je rozlišení ADC nekonečné, pak by přenosová funkce vypadala jako přímka.
 #### Vysvětlení pojmu LSB na tomto grafu
 Pro toto 3bitové ADC bude minimální detekovatelné napětí nebo rozlišení rovné (1Volt)/(2 na 3) = 0,125V
+
 Což znamená, že kdykoli je vstupní napětí mezi 0 a 0,125V, pak bude považováno za nulu.
+
 A výstup ADC se změní, pouze pokud vstup přesáhne tento 0,125V.
+
 Takže díky tomuto procesu kvantování bude chyba zavedena do výstupu ADC.
+
 Tato chyba se nazývá Kvantizační chyba = 1 LSB (Least significant bit)
+
 Vidíte ve grafu funkce přenosu, že každý krok odpovídá 1 LSB.
+
 Tuto kvantizační chybu lze samozřejmě snížit zvýšením počtu bitů.
 ## Vzorkování
 ![vzorkování](vzorkovani.png)
