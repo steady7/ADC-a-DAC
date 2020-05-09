@@ -67,9 +67,9 @@ Proč?
 Aby signál mohl po vzorkování být rekonstruován(převeden zpátky na analogový).
 
 Pro sinusovou vlnu s maximální frekvencí f max by tedy minimální vzorkovací frekvence měla být rovna 2násobku fmax.
-![nyquist](nyquistova_veta.png)
+![nyquist](myqiustova_veta.png)
 Při použití nižší vzorkovací frekvence se po převodu zpátky na analogový signál mohou v důsledku tzv. aliasingu objevit ve výsledném signálu frekvence, které v původním signálu nebyly
-![Aliasing](aliasing.png)
+![Aliasing](Aliasing.png)
 Aby se zabránilo tomuto aliasingu: vzorkovací frekvence by měla být alespoň dvojnásobkem maximální frekvence...........
 
 Aliasingu se dá zabránit jedině takzvaným antialiasing filtrem, což je dolní propust zařazená před převodníkem. 
