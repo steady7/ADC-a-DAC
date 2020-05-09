@@ -54,6 +54,7 @@ Takže díky tomuto procesu kvantování bude chyba zavedena do výstupu ADC.
 
 Tato chyba se nazývá Kvantizační chyba = 1 LSB (Least significant bit)
 
+
 Vidíte ve grafu funkce přenosu, že každý krok odpovídá 1 LSB.
 
 Tuto kvantizační chybu lze samozřejmě snížit zvýšením počtu bitů.
